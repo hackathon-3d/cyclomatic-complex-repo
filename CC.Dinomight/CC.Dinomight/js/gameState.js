@@ -2,7 +2,7 @@
 
 cc.GameState = {
     config: {
-        currentPage: "/html/homePage.html",
+        currentPage: "/pages/startPage.html",
         gameName: "DinoMight", 
     },
 

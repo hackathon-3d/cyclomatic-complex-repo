@@ -5,7 +5,7 @@
 
     WinJS.Binding.optimizeBindingReferences = true;
 
-    var homeUrl = "/html/homePage.html";
+    var homeUrl = "/pages/startPage.html";
     var game = new cc.domain.game();
     var state = cc.GameState;
     state.load();
@@ -34,7 +34,7 @@
             // touch event is probably different, but you get the point...
             //$('#[buttonid]').click(function (e) { GameManager.draw(); });
 
-            //WinJS.Navigation.navigate(GameManager.state.config.currentPage);
+            WinJS.Navigation.navigate(GameManager.state.config.currentPage);
         }));
     };
 
