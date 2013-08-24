@@ -80,8 +80,8 @@
 
                 newGameLink.setAttribute('style', 'display:none');                
                 battleLink.className -= 'disabled';
-                playerCard.src = '/images/logo.png';
-                cpuCard.src = '/images/logo.png';
+                playerCard.src = '/images/smalllogo.png';
+                cpuCard.src = '/images/smalllogo.png';
 
                 GameManager.game.deal();
                 
