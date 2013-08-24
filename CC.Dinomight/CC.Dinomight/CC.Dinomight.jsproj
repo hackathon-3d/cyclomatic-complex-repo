@@ -58,6 +58,8 @@
     <Content Include="css\default.css" />
     <Content Include="css\startPage.css" />
     <Content Include="default.html" />
+    <Content Include="images\arrow.png" />
+    <Content Include="images\baby.jpg" />
     <Content Include="images\background.png" />
     <Content Include="images\deck-back.png" />
     <Content Include="images\dinosaurs\alaskacephale.png" />
@@ -96,6 +98,7 @@
     <Content Include="images\dinosaurs\triceratops.png" />
     <Content Include="images\dinosaurs\tyrannosaurus.png" />
     <Content Include="images\dinosaurs\utahraptor.png" />
+    <Content Include="images\earl.gif" />
     <Content Include="images\logo.png" />
     <Content Include="images\smalllogo.png" />
     <Content Include="images\splashscreen.png" />
@@ -106,9 +109,6 @@
     <Content Include="js\domain.js" />
     <Content Include="js\gameState.js" />
     <Content Include="js\navigator.js" />
-    <Content Include="packages.config">
-      <SubType>Designer</SubType>
-    </Content>
     <Content Include="pages\itemDetail\itemDetail.css" />
     <Content Include="pages\itemDetail\itemDetail.html" />
     <Content Include="pages\itemDetail\itemDetail.js" />
@@ -120,10 +120,6 @@
     <Content Include="pages\groupedItems\groupedItems.js" />
     <Content Include="pages\startPage.html" />
     <Content Include="default.html" />
-    <Content Include="Scripts\jquery-2.0.3.intellisense.js" />
-    <Content Include="Scripts\jquery-2.0.3.js" />
-    <Content Include="Scripts\jquery-2.0.3.min.js" />
-    <Content Include="Scripts\jquery-2.0.3.min.map" />
     <None Include="CC.Dinomite_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
