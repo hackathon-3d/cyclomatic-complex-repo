@@ -105,8 +105,8 @@ cc.domain = {
         this.battle = function () {
             var didPlayerWin = function (playerCard, cpuCard) {
                 // Compute card stats 
-
-                return true;
+                return ((playerCard.speed + playerCard.weight + playerCard.lethality + playerCard.evade) >=
+                    (cpuCard.speed + cpuCard.weight + cpuCard.lethality + cpuCard.evade));
             };
 
             var playerCard = playerone.cards[0];
