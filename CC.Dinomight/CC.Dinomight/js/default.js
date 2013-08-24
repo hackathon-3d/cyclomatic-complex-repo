@@ -35,6 +35,7 @@
                 var battleResults = GameManager.game.battle();
 
                 var resultsSection = document.getElementById('result-details');
+                var html = '';
                 resultsSection.innerHTML = "Here are some cool results";
             }, false);
 
