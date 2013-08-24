@@ -1,11 +1,15 @@
-﻿#card-section {
+﻿body{
+    background: url('/images/background.png');
+    color: #353535;
+}
+
+#card-section {
     float:left;
     width:25%;
     height:100%;
 }
 
-#results-section {
-    /*background: green;*/
+#results-section {    
     float:left;
     width:45%;
     height:100%;
@@ -13,7 +17,6 @@
 }
 
 #details-section {
-    background: gray;
     float:left;
     width:19%;
     height:100%;
@@ -21,10 +24,10 @@
 
     .content-section .content h3 {
         padding:10px;
-        background:#efefef;
+        background:#454545;
         margin-top:15px;
         margin-bottom:20px;
-        color:#252525;
+        color:#efefef;
     }
 
      .content-section .results-content .score-det{
@@ -40,30 +43,41 @@
         text-align: center;
     }
 
-#battle-btn {
-    color:white;
+#battle-btn, #new-game {
+    color:#454545;
     font-size:x-large;
     cursor:pointer;
+    position:absolute;
+    left:462px;
+    top:550px;
+}
+
+#new-game {
+    top:575px;
 }
 
 header .user-info {
     position: absolute; 
     right: 80px; 
-    top:40px; 
+    top:45px; 
     font-size: 22px;
 }
 
     header .user-info .user-details {
         display:inline-block; 
-        top:-18px; 
+        top:-3px; 
         position:relative;
     }
 
+     header .user-info img{
+        margin-right:5px;
+    }
+
         header .user-info .user-details .user-name {
-            font-size:34px;
+            font-size:30px;
         }
         header .user-info .user-details .user-sub-info {
-            font-size:18px;
+            font-size:15px;
         }
 
 .main-content {
@@ -75,7 +89,7 @@ header .user-info {
 .card-container {
     width:300px;
     height: 410px;
-    background:#ff6a00;
+    background:#454545;
 }
 
     .card-container img {

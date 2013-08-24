@@ -58,6 +58,8 @@
     <Content Include="css\default.css" />
     <Content Include="css\startPage.css" />
     <Content Include="default.html" />
+    <Content Include="images\arrow.png" />
+    <Content Include="images\baby.jpg" />
     <Content Include="images\background.png" />
     <Content Include="images\deck-back.png" />
     <Content Include="images\dinosaurs\alaskacephale.png" />
@@ -96,6 +98,7 @@
     <Content Include="images\dinosaurs\triceratops.png" />
     <Content Include="images\dinosaurs\tyrannosaurus.png" />
     <Content Include="images\dinosaurs\utahraptor.png" />
+    <Content Include="images\earl.gif" />
     <Content Include="images\logo.png" />
     <Content Include="images\smalllogo.png" />
     <Content Include="images\splashscreen.png" />

@@ -53,8 +53,7 @@
 
                 if (battleResults.cpu.score == 0 || battleResults.player.score == 0) {                    
                     battleLink.className += 'disabled';
-                    battleLink.innerHTML = 'You done finished!';
-
+                    battleLink.setAttribute('style', 'display:none');
                     newGameLink.setAttribute('style', 'display:block');
                 }
 
@@ -64,9 +63,8 @@
                 var playerCard = document.getElementById('player-card');
                 var cpuCard = document.getElementById('cpu-card');
 
-                newGameLink.setAttribute('style', 'display:none');
+                newGameLink.setAttribute('style', 'display:none');                
                 battleLink.className -= 'disabled';
-                battleLink.innerHTML = "Let's get on with the killing!";
                 playerCard.src = '/images/logo.png';
                 cpuCard.src = '/images/logo.png';
 
@@ -78,6 +76,7 @@
                 playerScore.innerHTML = 18;
                 cpuScore.innerHTML = 18;
 
+                battleLink.setAttribute('style', 'display:block');
 
             }, false);
 

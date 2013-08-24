@@ -87,7 +87,7 @@ cc.domain = {
             var cloneDeck = deck.slice(0);
             var counter = 1;
             playerone.cards = [];
-            playerone.cards = [];
+            cpuplayer.cards = [];
 
             while (cloneDeck.length > 0) {                
                 var index = Math.floor(Math.random() * cloneDeck.length);
