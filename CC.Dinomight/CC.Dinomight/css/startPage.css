@@ -19,15 +19,15 @@
 
 .detail-container {
     display: inline-block;
-    width:175px;
-    height: 239px;
+    width:165px;
+    height: 229px;
     color:black;
     background: white;
-    border-left: 3px solid #454545 ;
     opacity: .9;
     overflow-x:hidden;
     overflow-y:scroll;
     padding: 0px 10px;
+    border: 5px solid transparent;
 }
 
 #cpu-details {
@@ -118,7 +118,6 @@ header .user-info {
     width:175px;
     height: 239px;
     background:#454545;
-
 }
 
     .card-container img {

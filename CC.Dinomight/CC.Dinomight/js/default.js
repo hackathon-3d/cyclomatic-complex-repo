@@ -58,6 +58,14 @@
                 cpuDetailsSection.style.visibility = 'visible';
                 playerDetailsSection.style.visibility = 'visible';
 
+                if (!battleResults.playerWon) {
+                    playerDetailsSection.style.borderColor = 'green';
+                    cpuDetailsSection.style.borderColor = 'transparent';
+                } else {
+                    cpuDetailsSection.style.borderColor = 'green';
+                    playerDetailsSection.style.borderColor = 'transparent';
+                }
+
                 playerCard.src = '/images/dinosaurs/' + battleResults.playerDino.name + '.png';
                 cpuCard.src = '/images/dinosaurs/' + battleResults.cpuDino.name + '.png';
 
