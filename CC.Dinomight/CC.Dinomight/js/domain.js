@@ -47,18 +47,18 @@ cc.domain = {
                 new cc.domain.dino('Brontosaurus', suits[1], 10, 99, 15, 15),
                 new cc.domain.dino('Brontosaurus', suits[1], 10, 99, 15, 15),
 
-                new cc.domain.dino('Triceratops', suits[2], 20, 55, 50, 25),
-                new cc.domain.dino('Triceratops', suits[2], 20, 55, 50, 25),
-                new cc.domain.dino('Triceratops', suits[2], 20, 55, 50, 25),
-                new cc.domain.dino('Triceratops', suits[2], 20, 55, 50, 25),
-                new cc.domain.dino('Triceratops', suits[2], 20, 55, 50, 25),
-                new cc.domain.dino('Triceratops', suits[2], 20, 55, 50, 25),
-                new cc.domain.dino('Triceratops', suits[2], 20, 55, 50, 25),
-                new cc.domain.dino('Triceratops', suits[2], 20, 55, 50, 25),
-                new cc.domain.dino('Triceratops', suits[2], 20, 55, 50, 25),
-                new cc.domain.dino('Triceratops', suits[2], 20, 55, 50, 25),
-                new cc.domain.dino('Triceratops', suits[2], 20, 55, 50, 25),
-                new cc.domain.dino('Triceratops', suits[2], 20, 55, 50, 25)
+                new cc.domain.dino('alaskacephale', suits[2], 20, 55, 50, 25),
+                new cc.domain.dino('alectrosaurus', suits[2], 20, 55, 50, 25),
+                new cc.domain.dino('archaeoceratops', suits[2], 20, 55, 50, 25),
+                new cc.domain.dino('baryonyx', suits[2], 20, 55, 50, 25),
+                new cc.domain.dino('daspletosaurus', suits[2], 20, 55, 50, 25),
+                new cc.domain.dino('deltadromeus', suits[2], 20, 55, 50, 25),
+                new cc.domain.dino('proceratops', suits[2], 20, 55, 50, 25),
+                new cc.domain.dino('saurolophus', suits[2], 20, 55, 50, 25),
+                new cc.domain.dino('stygimoloch', suits[2], 20, 55, 50, 25),
+                new cc.domain.dino('triceratops', suits[2], 20, 55, 50, 25),
+                new cc.domain.dino('tyrannosaurus', suits[2], 20, 55, 50, 25),
+                new cc.domain.dino('utahraptor', suits[2], 20, 55, 50, 25)
             ]
         };
 
