@@ -25,10 +25,13 @@
     WinJS.Application.onactivated = function (e) {
         if (e.detail.kind === Windows.ApplicationModel.Activation.ActivationKind.launch) {
             GameManager.game.init();
+            var dinoMightSound = new Audio("/assets/dynomite.wav");
+            dinoMightSound.volume = 1;
+            dinoMightSound.play();
         }
         e.setPromise(WinJS.UI.processAll().done(function () {
             GameManager.game.init();
-            GameManager.game.deal();
+            GameManager.game.deal();        
 
             var battleLink = document.getElementById("battle-btn");
             var newGameLink = document.getElementById("new-game");
