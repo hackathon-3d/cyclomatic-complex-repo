@@ -1,4 +1,5 @@
 css\default.css
+css\startPage.css
 default.html
 images\logo.png
 images\smalllogo.png
@@ -7,6 +8,7 @@ images\storelogo.png
 js\data.js
 js\default.js
 js\navigator.js
+js\startPage.js
 pages\groupDetail\groupDetail.css
 pages\groupDetail\groupDetail.html
 pages\groupDetail\groupDetail.js
@@ -16,3 +18,4 @@ pages\groupedItems\groupedItems.js
 pages\itemDetail\itemDetail.css
 pages\itemDetail\itemDetail.html
 pages\itemDetail\itemDetail.js
+pages\startPage.html

@@ -36,6 +36,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>c3ac68ea-ade1-4a7c-9394-bf9f03cbb3aa</ProjectGuid>
+    <ExpressionBlendVersion>5.0.30709.0</ExpressionBlendVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0'">
     <VisualStudioVersion>11.0</VisualStudioVersion>
@@ -54,13 +55,24 @@
       <SubType>Designer</SubType>
     </AppxManifest>
     <Content Include="css\default.css" />
+    <Content Include="css\startPage.css" />
+    <Content Include="css\default_old.css" />
+    <Content Include="default.html" />
     <Content Include="images\logo.png" />
     <Content Include="images\smalllogo.png" />
     <Content Include="images\splashscreen.png" />
     <Content Include="images\storelogo.png" />
+    <Content Include="image\Microsoft.VisualStudio.Blend.Html.Intrinsic.Img.png" />
     <Content Include="js\data.js" />
     <Content Include="js\default.js" />
+    <Content Include="js\default_old.js" />
+    <Content Include="js\navigator_new.js" />
     <Content Include="js\navigator.js" />
+    <Content Include="js\startPage.js" />
+    <Content Include="pages\groupedItems\test.html" />
+    <Content Include="pages\home\home.css" />
+    <Content Include="pages\home\home.html" />
+    <Content Include="pages\home\home.js" />
     <Content Include="pages\itemDetail\itemDetail.css" />
     <Content Include="pages\itemDetail\itemDetail.html" />
     <Content Include="pages\itemDetail\itemDetail.js" />
@@ -70,7 +82,11 @@
     <Content Include="pages\groupedItems\groupedItems.css" />
     <Content Include="pages\groupedItems\groupedItems.html" />
     <Content Include="pages\groupedItems\groupedItems.js" />
-    <Content Include="default.html" />
+    <Content Include="default_old.html" />
+    <Content Include="pages\page2\page2.css" />
+    <Content Include="pages\page2\page2.html" />
+    <Content Include="pages\page2\page2.js" />
+    <Content Include="pages\startPage.html" />
     <None Include="CC.Dinomite_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>

@@ -16,13 +16,17 @@
     <AppXManifest Include="C:\Hackathon\CC.Dinomight\CC.Dinomight\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-08-24T01:59:34.831</Modified>
+      <Modified>2013-08-24T05:42:11.411</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
+    <AppxPackagedFile Include="C:\Hackathon\CC.Dinomight\CC.Dinomight\css\startPage.css">
+      <PackagePath>css\startPage.css</PackagePath>
+      <Modified>2013-08-24T06:31:25.300</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Hackathon\CC.Dinomight\CC.Dinomight\css\default.css">
       <PackagePath>css\default.css</PackagePath>
-      <Modified>2013-08-24T00:54:04.579</Modified>
+      <Modified>2013-08-24T06:29:02.666</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Hackathon\CC.Dinomight\CC.Dinomight\pages\itemDetail\itemDetail.css">
       <PackagePath>pages\itemDetail\itemDetail.css</PackagePath>
@@ -34,7 +38,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Hackathon\CC.Dinomight\CC.Dinomight\pages\groupedItems\groupedItems.css">
       <PackagePath>pages\groupedItems\groupedItems.css</PackagePath>
-      <Modified>2013-08-24T00:54:04.610</Modified>
+      <Modified>2013-08-24T04:27:12.280</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Hackathon\CC.Dinomight\CC.Dinomight\images\logo.png">
       <PackagePath>images\logo.png</PackagePath>
@@ -66,7 +70,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Hackathon\CC.Dinomight\CC.Dinomight\js\navigator.js">
       <PackagePath>js\navigator.js</PackagePath>
-      <Modified>2013-08-24T00:54:04.782</Modified>
+      <Modified>2013-08-24T04:58:57.502</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Hackathon\CC.Dinomight\CC.Dinomight\js\startPage.js">
+      <PackagePath>js\startPage.js</PackagePath>
+      <Modified>2013-08-24T03:36:19.945</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Hackathon\CC.Dinomight\CC.Dinomight\pages\itemDetail\itemDetail.js">
       <PackagePath>pages\itemDetail\itemDetail.js</PackagePath>
@@ -90,15 +98,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Hackathon\CC.Dinomight\CC.Dinomight\pages\groupedItems\groupedItems.html">
       <PackagePath>pages\groupedItems\groupedItems.html</PackagePath>
-      <Modified>2013-08-24T00:54:04.657</Modified>
+      <Modified>2013-08-24T05:08:31.093</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Hackathon\CC.Dinomight\CC.Dinomight\default.html">
       <PackagePath>default.html</PackagePath>
-      <Modified>2013-08-24T00:54:04.516</Modified>
+      <Modified>2013-08-24T06:20:22.305</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Hackathon\CC.Dinomight\CC.Dinomight\pages\startPage.html">
+      <PackagePath>pages\startPage.html</PackagePath>
+      <Modified>2013-08-24T06:25:15.206</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Hackathon\CC.Dinomight\CC.Dinomight\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2013-08-24T01:59:34.660</Modified>
+      <Modified>2013-08-24T05:42:11.255</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

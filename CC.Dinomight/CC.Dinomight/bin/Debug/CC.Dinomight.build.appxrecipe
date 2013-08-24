@@ -13,6 +13,9 @@
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
+    <AppxPackagedFile Include="C:\Hackathon\CC.Dinomight\CC.Dinomight\css\startPage.css">
+      <PackagePath>css\startPage.css</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Hackathon\CC.Dinomight\CC.Dinomight\css\default.css">
       <PackagePath>css\default.css</PackagePath>
     </AppxPackagedFile>
@@ -50,6 +53,9 @@
     <AppxPackagedFile Include="C:\Hackathon\CC.Dinomight\CC.Dinomight\js\navigator.js">
       <PackagePath>js\navigator.js</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Hackathon\CC.Dinomight\CC.Dinomight\js\startPage.js">
+      <PackagePath>js\startPage.js</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Hackathon\CC.Dinomight\CC.Dinomight\pages\itemDetail\itemDetail.js">
       <PackagePath>pages\itemDetail\itemDetail.js</PackagePath>
     </AppxPackagedFile>
@@ -70,6 +76,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Hackathon\CC.Dinomight\CC.Dinomight\default.html">
       <PackagePath>default.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Hackathon\CC.Dinomight\CC.Dinomight\pages\startPage.html">
+      <PackagePath>pages\startPage.html</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Hackathon\CC.Dinomight\CC.Dinomight\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
