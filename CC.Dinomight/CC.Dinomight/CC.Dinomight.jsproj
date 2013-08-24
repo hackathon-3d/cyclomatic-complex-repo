@@ -65,14 +65,14 @@
     <Content Include="image\Microsoft.VisualStudio.Blend.Html.Intrinsic.Img.png" />
     <Content Include="js\data.js" />
     <Content Include="js\default.js" />
-    <Content Include="js\default_old.js" />
-    <Content Include="js\navigator_new.js" />
-    <Content Include="js\navigator.js" />
-    <Content Include="js\startPage.js" />
-    <Content Include="pages\groupedItems\test.html" />
+    <Content Include="js\startPage.js" />    
     <Content Include="pages\home\home.css" />
     <Content Include="pages\home\home.html" />
     <Content Include="pages\home\home.js" />
+    <Content Include="js\domain.js" />
+    <Content Include="js\gameState.js" />
+    <Content Include="js\navigator.js" />
+    <Content Include="packages.config" />
     <Content Include="pages\itemDetail\itemDetail.css" />
     <Content Include="pages\itemDetail\itemDetail.html" />
     <Content Include="pages\itemDetail\itemDetail.js" />
@@ -82,11 +82,12 @@
     <Content Include="pages\groupedItems\groupedItems.css" />
     <Content Include="pages\groupedItems\groupedItems.html" />
     <Content Include="pages\groupedItems\groupedItems.js" />
-    <Content Include="default_old.html" />
-    <Content Include="pages\page2\page2.css" />
-    <Content Include="pages\page2\page2.html" />
-    <Content Include="pages\page2\page2.js" />
     <Content Include="pages\startPage.html" />
+    <Content Include="default.html" />
+    <Content Include="Scripts\jquery-2.0.3.intellisense.js" />
+    <Content Include="Scripts\jquery-2.0.3.js" />
+    <Content Include="Scripts\jquery-2.0.3.min.js" />
+    <Content Include="Scripts\jquery-2.0.3.min.map" />
     <None Include="CC.Dinomite_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
