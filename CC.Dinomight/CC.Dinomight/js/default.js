@@ -32,7 +32,10 @@
 
             document.getElementById("battle-btn").addEventListener("click", function (e) {
                 e.preventDefault();
-                GameManager.game.battle();
+                var battleResults = GameManager.game.battle();
+
+                var resultsSection = document.getElementById('result-details');
+                resultsSection.innerHTML = "Here are some cool results";
             }, false);
 
             // touch event is probably different, but you get the point...
