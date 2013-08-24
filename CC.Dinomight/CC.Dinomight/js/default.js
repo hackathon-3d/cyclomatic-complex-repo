@@ -30,20 +30,56 @@
             GameManager.game.init();
             GameManager.game.deal();
 
-            document.getElementById("battle-btn").addEventListener("click", function (e) {
+            var battleLink = document.getElementById("battle-btn");
+            var newGameLink = document.getElementById("new-game");
+
+            battleLink.addEventListener("click", function (e) {
                 e.preventDefault();
-                var battleResults = GameManager.game.battle();
+                if (battleLink.className.indexOf('disabled') > -1) {
+                    return false;
+                }
 
-                var resultsSection = document.getElementById('result-details');
-                var html = '';
-                resultsSection.innerHTML = "Here are some cool results";
+                var battleResults = GameManager.game.battle();                
+                var playerScore = document.getElementById('player-score');
+                var cpuScore = document.getElementById('cpu-score');
+                var playerCard = document.getElementById('player-card');
+                var cpuCard = document.getElementById('cpu-card');
+
+                playerCard.src = '/images/dinosaurs/' + battleResults.playerDino.name + '.png';
+                cpuCard.src = '/images/dinosaurs/' + battleResults.cpuDino.name + '.png';
+
+                playerScore.innerHTML = battleResults.player.score;
+                cpuScore.innerHTML = battleResults.cpu.score;
+
+                if (battleResults.cpu.score == 0 || battleResults.player.score == 0) {                    
+                    battleLink.className += 'disabled';
+                    battleLink.innerHTML = 'You done finished!';
+
+                    newGameLink.setAttribute('style', 'display:block');
+                }
+
             }, false);
+                        
+            newGameLink.addEventListener('click', function (e) {
+                var playerCard = document.getElementById('player-card');
+                var cpuCard = document.getElementById('cpu-card');
 
-            // touch event is probably different, but you get the point...
-            //$('#battle-btn').click(function (e) {
-            //    e.preventDefault();
-            //    GameManager.game.battle();
-            //});
+                newGameLink.setAttribute('style', 'display:none');
+                battleLink.className -= 'disabled';
+                battleLink.innerHTML = "Let's get on with the killing!";
+                playerCard.src = '/images/logo.png';
+                cpuCard.src = '/images/logo.png';
+
+                GameManager.game.deal();
+                
+                var playerScore = document.getElementById('player-score');
+                var cpuScore = document.getElementById('cpu-score');
+
+                playerScore.innerHTML = 18;
+                cpuScore.innerHTML = 18;
+
+
+            }, false);
 
             WinJS.Navigation.navigate(GameManager.state.config.currentPage);
         }));

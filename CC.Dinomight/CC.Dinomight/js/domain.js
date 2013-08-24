@@ -65,7 +65,7 @@ cc.domain = {
         var playerone = {
             cards: [],
             getTopCard: function () {
-                return cards[0];
+                return this.cards[0];
             },
             score: 0
         };
@@ -73,7 +73,7 @@ cc.domain = {
         var cpuplayer = {
             cards: [],
             getTopCard: function () {
-                return cards[0];
+                return this.cards[0];
             },
             score: 0
         };
@@ -81,6 +81,8 @@ cc.domain = {
         this.deal = function () {
             var cloneDeck = deck.slice(0);
             var counter = 1;
+            playerone.cards = [];
+            playerone.cards = [];
 
             while (cloneDeck.length > 0) {                
                 var index = Math.floor(Math.random() * cloneDeck.length);
@@ -104,21 +106,30 @@ cc.domain = {
                 return true;
             };
 
-            var playerCard = playerone.cards[0];
-            var cpuCard = cpuplayer.cards[0];            
+            var playerCard = playerone.getTopCard();
+            var cpuCard = cpuplayer.getTopCard();            
             var playerWon = didPlayerWin(playerCard, cpuCard);
+            playerone.cards.splice(0, 1);
+            cpuplayer.cards.splice(0, 1);
 
-            if (playerWon) {
-                var card = cpuplayer.cards.splice(0, 1);
-                playerone.cards.push(card);                
-            } else {
-                var card = playerone.cards.splice(0, 1);
-                cpuplayer.cards.push(card);                
+            // Add the winners card back to their deck as well as the losers card to their deck.
+            if (playerWon) {                
+                playerone.cards.push(cpuCard);
+                playerone.cards.push(playerCard);
+            } else {                
+                cpuplayer.cards.push(playerCard);
+                cpuplayer.cards.push(cpuCard);
             }
 
-            var results = {                                
-                winningDino: playerWon ? playerCard : cpuCard,
-                losingDino: playerWon ? cpuCard : playerCard
+            playerone.score = playerone.cards.length;
+            cpuplayer.score = cpuplayer.cards.length;
+
+            var results = {
+                playerDino: playerCard,
+                cpuDino: cpuCard,
+                playerWon: playerWon,
+                player: playerone,
+                cpu: cpuplayer
             };
 
             return results;           
