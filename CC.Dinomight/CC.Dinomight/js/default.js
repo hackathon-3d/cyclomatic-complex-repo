@@ -22,17 +22,24 @@
         }
     }
 
-    function draw() {
-        // call game.draw
-    }
-
     WinJS.Application.onactivated = function (e) {
         if (e.detail.kind === Windows.ApplicationModel.Activation.ActivationKind.launch) {
-            game.init();
+            GameManager.game.init();
         }
         e.setPromise(WinJS.UI.processAll().done(function () {
+            GameManager.game.init();
+            GameManager.game.deal();
+
+            document.getElementById("battle-btn").addEventListener("click", function (e) {
+                e.preventDefault();
+                GameManager.game.battle();
+            }, false);
+
             // touch event is probably different, but you get the point...
-            //$('#[buttonid]').click(function (e) { GameManager.draw(); });
+            //$('#battle-btn').click(function (e) {
+            //    e.preventDefault();
+            //    GameManager.game.battle();
+            //});
 
             WinJS.Navigation.navigate(GameManager.state.config.currentPage);
         }));
@@ -42,7 +49,6 @@
 
     WinJS.Namespace.define("GameManager", {
         navigateHome: navigateHome,
-        draw: draw,
         game: game,
         state: state
     });

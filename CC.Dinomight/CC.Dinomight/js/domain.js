@@ -57,21 +57,23 @@ cc.domain = {
             cards: [],
             getTopCard: function () {
                 return cards[0];
-            }
+            },
+            score: 0
         };
 
         var cpuplayer = {
             cards: [],
             getTopCard: function () {
-            return cards[0];
-        }
+                return cards[0];
+            },
+            score: 0
         };
 
-        var deal = function () {
+        this.deal = function () {
             var cloneDeck = deck.slice(0);
+            var counter = 1;
 
-            while (cloneDeck.length > 0) {
-                var counter = 1;
+            while (cloneDeck.length > 0) {                
                 var index = Math.floor(Math.random() * cloneDeck.length);
                 var card = cloneDeck[index];
 
@@ -82,10 +84,11 @@ cc.domain = {
                 }
 
                 cloneDeck.splice(index, 1);
+                counter += 1;
             }
         };
 
-        var battle = function () {
+        this.battle = function () {
             if (playerone.cards[0].value > cpuplayer.cards[0].value) {
                 var card = cpuplayer.cards.splice(0, 1);
                 playerone.cards.push(card);
