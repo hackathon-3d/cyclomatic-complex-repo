@@ -15,17 +15,50 @@
     <script src="/js/startPage.js"></script>
 </head>
 <body>
-     <div class="fragment groupeditemspage">
+    <div class="fragment">
         <header aria-label="Header content" role="banner">
-            <button class="win-backbutton" aria-label="Back" disabled type="button"></button>
+            <!--<button class="win-backbutton" aria-label="Back" disabled type="button"></button>-->
             <h1 class="titlearea win-type-ellipsis">
                 <span class="pagetitle">DinoMIGHT!</span>
             </h1>
+            <div class="user-info">
+                <img src="/images/smalllogo.png" width="80" height="80"/> 
+                <div class="user-details">
+                    <div class="user-name">Super cool user</div>
+                    <div class="user-sub-info">sub info about user.</div>
+                </div>                
+            </div>
         </header>
         <section aria-label="Main content" role="main" class="main-content">
-            <div class="card-space player-space">Player space</div>
-            <div class="card-space cpu-space">CPU space</div>    
+            <section id="card-section">
+                <div class="card-container player-space">
+                    <img src="/images/logo.png" />
+                    <div class="details">
+                        <h2 class="card-title">T-Rex</h2>
+                        <p class="card-details">I'm the Jugganaut bitch!</p>
+                    </div>
+                </div>
+                <div class="card-container cpu-space">
+                    <img src="/images/logo.png" />
+                    <div class="details">
+                        <h2 class="card-title">T-Rex</h2>
+                        <p class="card-details">I'm the Jugganaut bitch!</p>
+                    </div>
+                </div>
+
+                <a id="battle-btn" href="#">Let's get on with the killing!</a>
+            </section>
+
+            <section id="results-section" class="content-section">
+                <h1>Results Section</h1>
+                <div class="content">The results</div>
+            </section>
+
+            <section id="details-section" class="content-section">
+                <h1>Details Section</h1>
+                <div class="content">The details</div>
+            </section>
         </section>
-    </div>    
+    </div>
 </body>
 </html>

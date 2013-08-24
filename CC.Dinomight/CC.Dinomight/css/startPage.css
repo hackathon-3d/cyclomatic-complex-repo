@@ -1,5 +1,82 @@
-﻿.main-content {
+﻿#card-section {
+    background: red;
+    float:left;
+    width:25%;
+    height:100%;
+}
+
+#results-section {
+    background: green;
+    float:left;
+    width:35%;
+    height:100%;
+    box-sizing:content-box;    
+}
+
+#details-section {
+    background: black;
+    float:left;
+    width:40%;
+    height:100%;
+}
+
+.content-section .content{
+    padding:20px;
+}
+
+#battle-btn {
+    color:white;
+    font-size:x-large;
+    cursor:pointer;
+}
+
+header .user-info {
+    position: absolute; 
+    right: 80px; 
+    top:40px; 
+    font-size: 22px;
+}
+
+    header .user-info .user-details {
+        display:inline-block; 
+        top:-18px; 
+        position:relative;
+    }
+
+        header .user-info .user-details .user-name {
+            font-size:34px;
+        }
+        header .user-info .user-details .user-sub-info {
+            font-size:18px;
+        }
+
+.main-content {
     margin-left:128px;
     background: #cdcdcd;
-    color: #252525;
+    color: #252525;    
 }
+
+.card-container {
+    width:450px;
+    height: 400px;
+    margin-bottom:15px;
+    background:#ff6a00;
+}
+
+    .card-container img {
+        width:450px;
+        height: 300px;
+        border: none;
+    }
+
+    .card-container .details {
+        box-sizing:border-box;
+        padding:15px;
+        height:100px;
+        background: white;
+    }
+        .card-container .details h2 {
+            margin-top:5px;
+            padding:0;
+            line-height:10px;
+        }
