@@ -1,54 +1,58 @@
 ﻿var cc = cc || {};
 
 cc.domain = {
-    suits: [
-        { key: "Triassic", title: "Triassic" },
-        { key: "Jurassic", title: "Jurassic" },
-        { key: "Cretaceous ", title: "Cretaceous" }
-    ],
-
-    deck: [
-        { group: suits[0], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: itemDescription, value: 0 },
-        { group: suits[0], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: itemDescription, value: 0 },
-        { group: suits[0], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: itemDescription, value: 0 },
-        { group: suits[0], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: itemDescription, value: 0 },
-        { group: suits[0], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: itemDescription, value: 0 },
-        { group: suits[0], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: itemDescription, value: 0 },
-        { group: suits[0], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: itemDescription, value: 0 },
-        { group: suits[0], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: itemDescription, value: 0 },
-        { group: suits[0], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: itemDescription, value: 0 },
-        { group: suits[0], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: itemDescription, value: 0 },
-        { group: suits[0], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: itemDescription, value: 0 },
-        { group: suits[0], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: itemDescription, value: 0 },
-
-        { group: suits[1], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: itemDescription, value: 0 },
-        { group: suits[1], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: itemDescription, value: 0 },
-        { group: suits[1], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: itemDescription, value: 0 },
-        { group: suits[1], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: itemDescription, value: 0 },
-        { group: suits[1], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: itemDescription, value: 0 },
-        { group: suits[1], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: itemDescription, value: 0 },
-        { group: suits[1], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: itemDescription, value: 0 },
-        { group: suits[1], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: itemDescription, value: 0 },
-        { group: suits[1], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: itemDescription, value: 0 },
-        { group: suits[1], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: itemDescription, value: 0 },
-        { group: suits[1], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: itemDescription, value: 0 },
-        { group: suits[1], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: itemDescription, value: 0 },
-
-        { group: suits[2], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: itemDescription, value: 0 },
-        { group: suits[2], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: itemDescription, value: 0 },
-        { group: suits[2], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: itemDescription, value: 0 },
-        { group: suits[2], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: itemDescription, value: 0 },
-        { group: suits[2], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: itemDescription, value: 0 },
-        { group: suits[2], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: itemDescription, value: 0 },
-        { group: suits[2], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: itemDescription, value: 0 },
-        { group: suits[2], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: itemDescription, value: 0 },
-        { group: suits[2], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: itemDescription, value: 0 },
-        { group: suits[2], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: itemDescription, value: 0 },
-        { group: suits[2], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: itemDescription, value: 0 },
-        { group: suits[2], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: itemDescription, value: 0 }
-    ],
+    suits: [],
+    deck: [],
 
     game: function () {
+        this.init = function () {
+            suits = [
+                { key: "Triassic", title: "Triassic" },
+                { key: "Jurassic", title: "Jurassic" },
+                { key: "Cretaceous ", title: "Cretaceous" }
+            ];
+            deck = [
+                { group: suits[0], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: "itemDescription", value: 0 },
+                { group: suits[0], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: "itemDescription", value: 0 },
+                { group: suits[0], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: "itemDescription", value: 0 },
+                { group: suits[0], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: "itemDescription", value: 0 },
+                { group: suits[0], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: "itemDescription", value: 0 },
+                { group: suits[0], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: "itemDescription", value: 0 },
+                { group: suits[0], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: "itemDescription", value: 0 },
+                { group: suits[0], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: "itemDescription", value: 0 },
+                { group: suits[0], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: "itemDescription", value: 0 },
+                { group: suits[0], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: "itemDescription", value: 0 },
+                { group: suits[0], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: "itemDescription", value: 0 },
+                { group: suits[0], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: "itemDescription", value: 0 },
+
+                { group: suits[1], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: "itemDescription", value: 0 },
+                { group: suits[1], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: "itemDescription", value: 0 },
+                { group: suits[1], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: "itemDescription", value: 0 },
+                { group: suits[1], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: "itemDescription", value: 0 },
+                { group: suits[1], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: "itemDescription", value: 0 },
+                { group: suits[1], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: "itemDescription", value: 0 },
+                { group: suits[1], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: "itemDescription", value: 0 },
+                { group: suits[1], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: "itemDescription", value: 0 },
+                { group: suits[1], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: "itemDescription", value: 0 },
+                { group: suits[1], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: "itemDescription", value: 0 },
+                { group: suits[1], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: "itemDescription", value: 0 },
+                { group: suits[1], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: "itemDescription", value: 0 },
+
+                { group: suits[2], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: "itemDescription", value: 0 },
+                { group: suits[2], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: "itemDescription", value: 0 },
+                { group: suits[2], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: "itemDescription", value: 0 },
+                { group: suits[2], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: "itemDescription", value: 0 },
+                { group: suits[2], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: "itemDescription", value: 0 },
+                { group: suits[2], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: "itemDescription", value: 0 },
+                { group: suits[2], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: "itemDescription", value: 0 },
+                { group: suits[2], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: "itemDescription", value: 0 },
+                { group: suits[2], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: "itemDescription", value: 0 },
+                { group: suits[2], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: "itemDescription", value: 0 },
+                { group: suits[2], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: "itemDescription", value: 0 },
+                { group: suits[2], title: "Item Title: 1", subtitle: "Item Subtitle: 1", description: "itemDescription", value: 0 }
+            ]
+        };
+
         var playerone = {
             cards: [],
             getTopCard: function () {

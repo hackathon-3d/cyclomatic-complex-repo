@@ -6,7 +6,7 @@
     WinJS.Binding.optimizeBindingReferences = true;
 
     var homeUrl = "/html/homePage.html";
-    var game = null; // instantiate game object
+    var game = new cc.domain.game();
     var state = cc.GameState;
     state.load();
 
@@ -28,7 +28,7 @@
 
     WinJS.Application.onactivated = function (e) {
         if (e.detail.kind === Windows.ApplicationModel.Activation.ActivationKind.launch) {
-            // Game has been newly launched. Initialize game here         
+            game.init();
         }
         e.setPromise(WinJS.UI.processAll().done(function () {
             // touch event is probably different, but you get the point...
