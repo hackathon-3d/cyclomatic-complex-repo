@@ -50,6 +50,9 @@
     <AppxPackagedFile Include="C:\Users\Hackathon\Documents\GitHub\cyclomatic-complex-repo\CC.Dinomight\CC.Dinomight\js\domain.js">
       <PackagePath>js\domain.js</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hackathon\Documents\GitHub\cyclomatic-complex-repo\CC.Dinomight\CC.Dinomight\js\gameState.js">
+      <PackagePath>js\gameState.js</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hackathon\Documents\GitHub\cyclomatic-complex-repo\CC.Dinomight\CC.Dinomight\js\navigator.js">
       <PackagePath>js\navigator.js</PackagePath>
     </AppxPackagedFile>

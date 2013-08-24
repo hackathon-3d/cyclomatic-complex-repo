@@ -61,6 +61,7 @@
     <Content Include="js\data.js" />
     <Content Include="js\default.js" />
     <Content Include="js\domain.js" />
+    <Content Include="js\gameState.js" />
     <Content Include="js\navigator.js" />
     <Content Include="packages.config" />
     <Content Include="pages\itemDetail\itemDetail.css" />

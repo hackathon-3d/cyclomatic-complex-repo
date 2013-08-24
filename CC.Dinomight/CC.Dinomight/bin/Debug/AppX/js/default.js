@@ -5,41 +5,45 @@
 
     WinJS.Binding.optimizeBindingReferences = true;
 
-    var app = WinJS.Application;
-    var activation = Windows.ApplicationModel.Activation;
-    var nav = WinJS.Navigation;
+    var homeUrl = "/html/homePage.html";
+    var game = null; // instantiate game object
+    var state = cc.GameState;
+    state.load();
 
-    app.addEventListener("activated", function (args) {
-        if (args.detail.kind === activation.ActivationKind.launch) {
-            if (args.detail.previousExecutionState !== activation.ApplicationExecutionState.terminated) {
-                // TODO: This application has been newly launched. Initialize
-                // your application here.
-            } else {
-                // TODO: This application has been reactivated from suspension.
-                // Restore application state here.
-            }
+    // Navigation support
+    function navigateHome() {
+        var loc = WinJS.Navigation.location;
+        if (loc !== "" && loc !== homeUrl) {
+            // Navigate
+            WinJS.Navigation.navigate(homeUrl);
 
-            if (app.sessionState.history) {
-                nav.history = app.sessionState.history;
-            }
-            args.setPromise(WinJS.UI.processAll().then(function () {
-                if (nav.location) {
-                    nav.history.current.initialPlaceholder = true;
-                    return nav.navigate(nav.location, nav.state);
-                } else {
-                    return nav.navigate(Application.navigator.home);
-                }
-            }));
+            // Update the current location for suspend/resume
+            GameManager.state.config.currentPage = homeUrl;
         }
-    });
+    }
 
-    app.oncheckpoint = function (args) {
-        // TODO: This application is about to be suspended. Save any state
-        // that needs to persist across suspensions here. If you need to 
-        // complete an asynchronous operation before your application is 
-        // suspended, call args.setPromise().
-        app.sessionState.history = nav.history;
+    function draw() {
+        // call game.draw
+    }
+
+    WinJS.Application.onactivated = function (e) {
+        if (e.detail.kind === Windows.ApplicationModel.Activation.ActivationKind.launch) {
+            // Game has been newly launched. Initialize game here         
+        }
+        e.setPromise(WinJS.UI.processAll().done(function () {
+            // touch event is probably different, but you get the point...
+            //$('#[buttonid]').click(function (e) { GameManager.draw(); });
+
+            //WinJS.Navigation.navigate(GameManager.state.config.currentPage);
+        }));
     };
 
-    app.start();
+    WinJS.Application.start();
+
+    WinJS.Namespace.define("GameManager", {
+        navigateHome: navigateHome,
+        draw: draw,
+        game: game,
+        state: state
+    });
 })();
