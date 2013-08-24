@@ -1,6 +1,7 @@
 ﻿body{
     background: url('/images/background.png');
     color: #353535;
+    background-size:cover;    
 }
 
 #card-section {
@@ -36,10 +37,10 @@
     }
 
     .content-section .results-content .num{
-        font-size:40px;     
+        font-size:35px;     
         position:relative;
-        top:-35px;   
-        width:40px;
+        top:-25px;   
+        width:30px;
         text-align: center;
     }
 
@@ -48,12 +49,13 @@
     font-size:x-large;
     cursor:pointer;
     position:absolute;
-    left:462px;
-    top:550px;
+    left:345px;
+    top:400px;
 }
 
 #new-game {
-    top:575px;
+    top:405px;
+    left:327px;
 }
 
 header .user-info {
@@ -87,8 +89,8 @@ header .user-info {
 }
 
 .card-container {
-    width:300px;
-    height: 410px;
+    width:175px;
+    height: 239px;
     background:#454545;
 }
 
