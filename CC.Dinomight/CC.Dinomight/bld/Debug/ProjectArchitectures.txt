@@ -1,1 +1,1 @@
-C:\Hackathon\CC.Dinomight\CC.Dinomight\CC.Dinomight.jsproj;neutral
+C:\Users\Hackathon\Documents\GitHub\cyclomatic-complex-repo\CC.Dinomight\CC.Dinomight\CC.Dinomight.jsproj;neutral

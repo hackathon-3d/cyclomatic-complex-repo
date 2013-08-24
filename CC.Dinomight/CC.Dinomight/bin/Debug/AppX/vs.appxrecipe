@@ -5,7 +5,7 @@
     <WindowsUser>Hackathon</WindowsUser>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
-    <RegisteredManifestChecksum>655EEC26F94C40092CAE86F16F825262B97DC45201D9E093D34AA2689264B9F7</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>643F73BE89A6FD2752F830E285C21C7D1B0144BC5C7532322757BC2583951166</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>c3ac68ea-ade1-4a7c-9394-bf9f03cbb3aa_1.0.0.0_neutral__k9bf7tsc5wgba</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>c3ac68ea-ade1-4a7c-9394-bf9f03cbb3aa_k9bf7tsc5wgba!App</RegisteredUserModeAppID>
     <RegisteredPackageID>c3ac68ea-ade1-4a7c-9394-bf9f03cbb3aa</RegisteredPackageID>
@@ -13,92 +13,96 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Hackathon\CC.Dinomight\CC.Dinomight\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Hackathon\Documents\GitHub\cyclomatic-complex-repo\CC.Dinomight\CC.Dinomight\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-08-24T01:59:34.831</Modified>
+      <Modified>2013-08-24T04:51:55.036</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Hackathon\CC.Dinomight\CC.Dinomight\css\default.css">
+    <AppxPackagedFile Include="C:\Users\Hackathon\Documents\GitHub\cyclomatic-complex-repo\CC.Dinomight\CC.Dinomight\css\default.css">
       <PackagePath>css\default.css</PackagePath>
-      <Modified>2013-08-24T00:54:04.579</Modified>
+      <Modified>2013-08-24T02:19:24.291</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Hackathon\CC.Dinomight\CC.Dinomight\pages\itemDetail\itemDetail.css">
+    <AppxPackagedFile Include="C:\Users\Hackathon\Documents\GitHub\cyclomatic-complex-repo\CC.Dinomight\CC.Dinomight\pages\itemDetail\itemDetail.css">
       <PackagePath>pages\itemDetail\itemDetail.css</PackagePath>
-      <Modified>2013-08-24T00:54:04.595</Modified>
+      <Modified>2013-08-24T02:19:24.310</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Hackathon\CC.Dinomight\CC.Dinomight\pages\groupDetail\groupDetail.css">
+    <AppxPackagedFile Include="C:\Users\Hackathon\Documents\GitHub\cyclomatic-complex-repo\CC.Dinomight\CC.Dinomight\pages\groupDetail\groupDetail.css">
       <PackagePath>pages\groupDetail\groupDetail.css</PackagePath>
-      <Modified>2013-08-24T00:54:04.563</Modified>
+      <Modified>2013-08-24T02:19:24.303</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Hackathon\CC.Dinomight\CC.Dinomight\pages\groupedItems\groupedItems.css">
+    <AppxPackagedFile Include="C:\Users\Hackathon\Documents\GitHub\cyclomatic-complex-repo\CC.Dinomight\CC.Dinomight\pages\groupedItems\groupedItems.css">
       <PackagePath>pages\groupedItems\groupedItems.css</PackagePath>
-      <Modified>2013-08-24T00:54:04.610</Modified>
+      <Modified>2013-08-24T02:19:24.306</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Hackathon\CC.Dinomight\CC.Dinomight\images\logo.png">
+    <AppxPackagedFile Include="C:\Users\Hackathon\Documents\GitHub\cyclomatic-complex-repo\CC.Dinomight\CC.Dinomight\images\logo.png">
       <PackagePath>images\logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-08-05T22:59:44.000</Modified>
+      <Modified>2013-08-24T02:19:24.292</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Hackathon\CC.Dinomight\CC.Dinomight\images\smalllogo.png">
+    <AppxPackagedFile Include="C:\Users\Hackathon\Documents\GitHub\cyclomatic-complex-repo\CC.Dinomight\CC.Dinomight\images\smalllogo.png">
       <PackagePath>images\smalllogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-08-05T22:59:44.000</Modified>
+      <Modified>2013-08-24T02:19:24.293</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Hackathon\CC.Dinomight\CC.Dinomight\images\splashscreen.png">
+    <AppxPackagedFile Include="C:\Users\Hackathon\Documents\GitHub\cyclomatic-complex-repo\CC.Dinomight\CC.Dinomight\images\splashscreen.png">
       <PackagePath>images\splashscreen.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-08-05T22:59:44.000</Modified>
+      <Modified>2013-08-24T02:19:24.294</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Hackathon\CC.Dinomight\CC.Dinomight\images\storelogo.png">
+    <AppxPackagedFile Include="C:\Users\Hackathon\Documents\GitHub\cyclomatic-complex-repo\CC.Dinomight\CC.Dinomight\images\storelogo.png">
       <PackagePath>images\storelogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-08-05T22:59:44.000</Modified>
+      <Modified>2013-08-24T02:19:24.295</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Hackathon\CC.Dinomight\CC.Dinomight\js\data.js">
+    <AppxPackagedFile Include="C:\Users\Hackathon\Documents\GitHub\cyclomatic-complex-repo\CC.Dinomight\CC.Dinomight\js\data.js">
       <PackagePath>js\data.js</PackagePath>
-      <Modified>2013-08-05T22:59:44.000</Modified>
+      <Modified>2013-08-24T02:19:24.299</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Hackathon\CC.Dinomight\CC.Dinomight\js\default.js">
+    <AppxPackagedFile Include="C:\Users\Hackathon\Documents\GitHub\cyclomatic-complex-repo\CC.Dinomight\CC.Dinomight\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2013-08-24T00:54:04.485</Modified>
+      <Modified>2013-08-24T02:19:24.300</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Hackathon\CC.Dinomight\CC.Dinomight\js\navigator.js">
+    <AppxPackagedFile Include="C:\Users\Hackathon\Documents\GitHub\cyclomatic-complex-repo\CC.Dinomight\CC.Dinomight\js\domain.js">
+      <PackagePath>js\domain.js</PackagePath>
+      <Modified>2013-08-24T03:49:50.044</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hackathon\Documents\GitHub\cyclomatic-complex-repo\CC.Dinomight\CC.Dinomight\js\navigator.js">
       <PackagePath>js\navigator.js</PackagePath>
-      <Modified>2013-08-24T00:54:04.782</Modified>
+      <Modified>2013-08-24T02:19:24.301</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Hackathon\CC.Dinomight\CC.Dinomight\pages\itemDetail\itemDetail.js">
+    <AppxPackagedFile Include="C:\Users\Hackathon\Documents\GitHub\cyclomatic-complex-repo\CC.Dinomight\CC.Dinomight\pages\itemDetail\itemDetail.js">
       <PackagePath>pages\itemDetail\itemDetail.js</PackagePath>
-      <Modified>2013-08-24T00:54:04.839</Modified>
+      <Modified>2013-08-24T02:19:24.312</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Hackathon\CC.Dinomight\CC.Dinomight\pages\groupDetail\groupDetail.js">
+    <AppxPackagedFile Include="C:\Users\Hackathon\Documents\GitHub\cyclomatic-complex-repo\CC.Dinomight\CC.Dinomight\pages\groupDetail\groupDetail.js">
       <PackagePath>pages\groupDetail\groupDetail.js</PackagePath>
-      <Modified>2013-08-24T00:54:04.704</Modified>
+      <Modified>2013-08-24T02:19:24.305</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Hackathon\CC.Dinomight\CC.Dinomight\pages\groupedItems\groupedItems.js">
+    <AppxPackagedFile Include="C:\Users\Hackathon\Documents\GitHub\cyclomatic-complex-repo\CC.Dinomight\CC.Dinomight\pages\groupedItems\groupedItems.js">
       <PackagePath>pages\groupedItems\groupedItems.js</PackagePath>
-      <Modified>2013-08-24T00:54:04.767</Modified>
+      <Modified>2013-08-24T02:19:24.309</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Hackathon\CC.Dinomight\CC.Dinomight\pages\itemDetail\itemDetail.html">
+    <AppxPackagedFile Include="C:\Users\Hackathon\Documents\GitHub\cyclomatic-complex-repo\CC.Dinomight\CC.Dinomight\pages\itemDetail\itemDetail.html">
       <PackagePath>pages\itemDetail\itemDetail.html</PackagePath>
-      <Modified>2013-08-24T00:54:04.626</Modified>
+      <Modified>2013-08-24T02:19:24.310</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Hackathon\CC.Dinomight\CC.Dinomight\pages\groupDetail\groupDetail.html">
+    <AppxPackagedFile Include="C:\Users\Hackathon\Documents\GitHub\cyclomatic-complex-repo\CC.Dinomight\CC.Dinomight\pages\groupDetail\groupDetail.html">
       <PackagePath>pages\groupDetail\groupDetail.html</PackagePath>
-      <Modified>2013-08-24T00:54:04.626</Modified>
+      <Modified>2013-08-24T02:19:24.304</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Hackathon\CC.Dinomight\CC.Dinomight\pages\groupedItems\groupedItems.html">
+    <AppxPackagedFile Include="C:\Users\Hackathon\Documents\GitHub\cyclomatic-complex-repo\CC.Dinomight\CC.Dinomight\pages\groupedItems\groupedItems.html">
       <PackagePath>pages\groupedItems\groupedItems.html</PackagePath>
-      <Modified>2013-08-24T00:54:04.657</Modified>
+      <Modified>2013-08-24T02:19:24.307</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Hackathon\CC.Dinomight\CC.Dinomight\default.html">
+    <AppxPackagedFile Include="C:\Users\Hackathon\Documents\GitHub\cyclomatic-complex-repo\CC.Dinomight\CC.Dinomight\default.html">
       <PackagePath>default.html</PackagePath>
-      <Modified>2013-08-24T00:54:04.516</Modified>
+      <Modified>2013-08-24T02:19:24.292</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Hackathon\CC.Dinomight\CC.Dinomight\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Hackathon\Documents\GitHub\cyclomatic-complex-repo\CC.Dinomight\CC.Dinomight\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2013-08-24T01:59:34.660</Modified>
+      <Modified>2013-08-24T04:51:54.918</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -6,7 +6,9 @@ images\splashscreen.png
 images\storelogo.png
 js\data.js
 js\default.js
+js\domain.js
 js\navigator.js
+packages.config
 pages\groupDetail\groupDetail.css
 pages\groupDetail\groupDetail.html
 pages\groupDetail\groupDetail.js
@@ -16,3 +18,7 @@ pages\groupedItems\groupedItems.js
 pages\itemDetail\itemDetail.css
 pages\itemDetail\itemDetail.html
 pages\itemDetail\itemDetail.js
+Scripts\jquery-2.0.3.intellisense.js
+Scripts\jquery-2.0.3.js
+Scripts\jquery-2.0.3.min.js
+Scripts\jquery-2.0.3.min.map

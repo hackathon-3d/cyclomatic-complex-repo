@@ -24,3 +24,16 @@ C:\Hackathon\CC.Dinomight\CC.Dinomight\bld\Debug\resources.resfiles
 C:\Hackathon\CC.Dinomight\CC.Dinomight\bld\Debug\pri.resfiles
 C:\Hackathon\CC.Dinomight\CC.Dinomight\bld\Debug\LanguageQualifiers.txt
 C:\Hackathon\CC.Dinomight\CC.Dinomight\bld\Debug\ProjectArchitectures.txt
+C:\Users\Hackathon\Documents\GitHub\cyclomatic-complex-repo\CC.Dinomight\CC.Dinomight\bin\Debug\resources.pri
+C:\Users\Hackathon\Documents\GitHub\cyclomatic-complex-repo\CC.Dinomight\CC.Dinomight\bin\Debug\AppxManifest.xml
+C:\Users\Hackathon\Documents\GitHub\cyclomatic-complex-repo\CC.Dinomight\CC.Dinomight\bin\Debug\CC.Dinomight.build.appxrecipe
+C:\Users\Hackathon\Documents\GitHub\cyclomatic-complex-repo\CC.Dinomight\CC.Dinomight\bld\Debug\priconfig.xml.intermediate
+C:\Users\Hackathon\Documents\GitHub\cyclomatic-complex-repo\CC.Dinomight\CC.Dinomight\bld\Debug\layout.resfiles.intermediate
+C:\Users\Hackathon\Documents\GitHub\cyclomatic-complex-repo\CC.Dinomight\CC.Dinomight\bld\Debug\resources.resfiles.intermediate
+C:\Users\Hackathon\Documents\GitHub\cyclomatic-complex-repo\CC.Dinomight\CC.Dinomight\bld\Debug\pri.resfiles.intermediate
+C:\Users\Hackathon\Documents\GitHub\cyclomatic-complex-repo\CC.Dinomight\CC.Dinomight\bld\Debug\priconfig.xml
+C:\Users\Hackathon\Documents\GitHub\cyclomatic-complex-repo\CC.Dinomight\CC.Dinomight\bld\Debug\layout.resfiles
+C:\Users\Hackathon\Documents\GitHub\cyclomatic-complex-repo\CC.Dinomight\CC.Dinomight\bld\Debug\resources.resfiles
+C:\Users\Hackathon\Documents\GitHub\cyclomatic-complex-repo\CC.Dinomight\CC.Dinomight\bld\Debug\pri.resfiles
+C:\Users\Hackathon\Documents\GitHub\cyclomatic-complex-repo\CC.Dinomight\CC.Dinomight\bld\Debug\LanguageQualifiers.txt
+C:\Users\Hackathon\Documents\GitHub\cyclomatic-complex-repo\CC.Dinomight\CC.Dinomight\bld\Debug\ProjectArchitectures.txt

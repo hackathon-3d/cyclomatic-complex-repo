@@ -62,6 +62,7 @@
     <Content Include="js\default.js" />
     <Content Include="js\domain.js" />
     <Content Include="js\navigator.js" />
+    <Content Include="packages.config" />
     <Content Include="pages\itemDetail\itemDetail.css" />
     <Content Include="pages\itemDetail\itemDetail.html" />
     <Content Include="pages\itemDetail\itemDetail.js" />
@@ -72,6 +73,10 @@
     <Content Include="pages\groupedItems\groupedItems.html" />
     <Content Include="pages\groupedItems\groupedItems.js" />
     <Content Include="default.html" />
+    <Content Include="Scripts\jquery-2.0.3.intellisense.js" />
+    <Content Include="Scripts\jquery-2.0.3.js" />
+    <Content Include="Scripts\jquery-2.0.3.min.js" />
+    <Content Include="Scripts\jquery-2.0.3.min.map" />
     <None Include="CC.Dinomite_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
