@@ -25,7 +25,8 @@
     background: white;
     border-left: 3px solid #454545 ;
     opacity: .9;
-    overflow:hidden;
+    overflow-x:hidden;
+    overflow-y:scroll;
     padding: 0px 10px;
 }
 
