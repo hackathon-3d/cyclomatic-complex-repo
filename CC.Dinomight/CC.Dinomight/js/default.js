@@ -45,8 +45,23 @@
                 var playerCard = document.getElementById('player-card');
                 var cpuCard = document.getElementById('cpu-card');
 
+                var cpuCardTitle = document.getElementById('cpu-card-title'),
+                    cpuCardDetails = document.getElementById('cpu-card-details'),
+                    playerCardTitle = document.getElementById('player-card-title'),
+                    playerCardDetails = document.getElementById('player-card-details'),
+                    cpuDetailsSection = document.getElementById('player-details'),
+                    playerDetailsSection = document.getElementById('cpu-details');
+
+                cpuDetailsSection.style.visibility = 'visible';
+                playerDetailsSection.style.visibility = 'visible';
+
                 playerCard.src = '/images/dinosaurs/' + battleResults.playerDino.name + '.png';
                 cpuCard.src = '/images/dinosaurs/' + battleResults.cpuDino.name + '.png';
+
+                cpuCardTitle.textContent = battleResults.cpuDino.name;
+                cpuCardDetails.textContent = battleResults.cpuDino.description;
+                playerCardTitle.textContent = battleResults.playerDino.name;
+                playerCardDetails.textContent = battleResults.playerDino.description;
 
                 playerScore.innerHTML = battleResults.player.score;
                 cpuScore.innerHTML = battleResults.cpu.score;

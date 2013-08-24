@@ -9,7 +9,28 @@
     float:left;
     width:45%;
     height:100%;
-    box-sizing:content-box;    
+    box-sizing:content-box;   
+}
+
+.detail-container {
+    display: inline-block;
+    width:300px;
+    height: 410px;
+    float: left;
+    opacity:.5;
+    background: gray;
+    overflow:hidden;
+    padding: 0px 10px;
+}
+
+#cpu-details {
+    margin-top: 30px;
+    visibility:hidden;
+}
+
+#player-details {
+    margin-top: 15px;
+    visibility:hidden;
 }
 
 #details-section {
@@ -76,6 +97,8 @@ header .user-info {
     width:300px;
     height: 410px;
     background:#ff6a00;
+    display:inline-block;
+    float:left;
 }
 
     .card-container img {
