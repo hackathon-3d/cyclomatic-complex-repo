@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
-  <Identity Name="c3ac68ea-ade1-4a7c-9394-bf9f03cbb3aa" Version="1.0.0.4" Publisher="CN=Hackathon" />
+  <Identity Name="c3ac68ea-ade1-4a7c-9394-bf9f03cbb3aa" Version="1.0.0.7" Publisher="CN=Hackathon" />
   <Properties>
     <DisplayName>CC.Dinomight</DisplayName>
     <PublisherDisplayName>Hackathon</PublisherDisplayName>
