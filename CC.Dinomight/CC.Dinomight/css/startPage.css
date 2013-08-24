@@ -19,11 +19,12 @@
 
 .detail-container {
     display: inline-block;
-    width:300px;
-    height: 410px;
-    float: left;
-    opacity:.5;
-    background: gray;
+    width:175px;
+    height: 239px;
+    color:black;
+    background: white;
+    border-left: 3px solid #454545 ;
+    opacity: .9;
     overflow:hidden;
     padding: 0px 10px;
 }
@@ -113,7 +114,7 @@ header .user-info {
     
     display:inline-block;
     float:left;
-        width:175px;
+    width:175px;
     height: 239px;
     background:#454545;
 
