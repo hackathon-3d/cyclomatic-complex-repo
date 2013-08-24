@@ -50,11 +50,17 @@ cc.domain = {
 
     game: function () {
         var playerone = {
-            cards: []
+            cards: [],
+            getTopCard: function () {
+                return cards[0];
+            }
         };
 
         var cpuplayer = {
-            cards: []
+            cards: [],
+            getTopCard: function () {
+            return cards[0];
+        }
         };
 
         var deal = function () {
